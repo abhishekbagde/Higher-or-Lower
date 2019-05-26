@@ -12,7 +12,6 @@
         android:text="Higher and Lower"
         android:textSize="50dp"
         android:layout_centerHorizontal="true" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +20,6 @@
         android:layout_marginTop="100sp"
         android:layout_marginLeft="10sp"
         android:textColor="#000000"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,10 +27,7 @@
         android:textSize="40sp"
         android:layout_marginTop="150sp"
         android:layout_marginLeft="20sp"
-        android:textColor="#000000"
-
-        />
-
+        android:textColor="#000000"/>
     <EditText
         android:id="@+id/textEditEnterNumber"
         android:layout_width="match_parent"
@@ -41,10 +36,7 @@
         android:ems="10"
         android:hint="Enter the number"
         android:inputType="number"
-        android:textSize="30sp"
-
-        />
-
+        android:textSize="30sp" />
     <Button
         android:id="@+id/buttonGuess"
         android:layout_width="wrap_content"
@@ -54,5 +46,4 @@
         android:onClick="guess"
         android:text="GUESS"
         android:textSize="40sp" />
-
 </RelativeLayout>
